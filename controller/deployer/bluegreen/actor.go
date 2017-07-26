@@ -1,6 +1,6 @@
 package bluegreen
 
-import I "github.com/compozed/deployadactyl/interfaces"
+import I "github.com/amandamunoz/deployadactyl/interfaces"
 
 func newActor(pusher I.Pusher, foundationURL string) actor {
 	commands := make(chan actorCommand)

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	C "github.com/compozed/deployadactyl/constants"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // TemporaryNameSuffix is used when deploying the new application in order to

@@ -12,10 +12,10 @@ import (
 
 	"github.com/op/go-logging"
 
-	. "github.com/compozed/deployadactyl/artifetcher"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
+	. "github.com/amandamunoz/deployadactyl/artifetcher"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
 )
 
 var _ = Describe("Artifetcher", func() {

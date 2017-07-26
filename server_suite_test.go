@@ -17,7 +17,7 @@ var pathToCLI string
 
 var _ = BeforeSuite(func() {
 	var err error
-	pathToCLI, err = gexec.Build("github.com/compozed/deployadactyl")
+	pathToCLI, err = gexec.Build("github.com/amandamunoz/deployadactyl")
 	Expect(err).ToNot(HaveOccurred())
 })
 

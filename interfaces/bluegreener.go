@@ -3,8 +3,8 @@ package interfaces
 import (
 	"io"
 
-	"github.com/compozed/deployadactyl/config"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // BlueGreener interface.

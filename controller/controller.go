@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	I "github.com/compozed/deployadactyl/interfaces"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
 	"github.com/gin-gonic/gin"
 )
 

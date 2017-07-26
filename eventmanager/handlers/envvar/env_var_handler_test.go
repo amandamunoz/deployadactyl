@@ -7,10 +7,10 @@ import (
 	"github.com/op/go-logging"
 	"github.com/spf13/afero"
 
-	. "github.com/compozed/deployadactyl/eventmanager/handlers/envvar"
-	I "github.com/compozed/deployadactyl/interfaces"
-	"github.com/compozed/deployadactyl/logger"
-	S "github.com/compozed/deployadactyl/structs"
+	. "github.com/amandamunoz/deployadactyl/eventmanager/handlers/envvar"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	"github.com/amandamunoz/deployadactyl/logger"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 var _ = Describe("Env_Var_Handler", func() {

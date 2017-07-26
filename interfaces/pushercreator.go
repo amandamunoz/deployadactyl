@@ -3,7 +3,7 @@ package interfaces
 import (
 	"io"
 
-	S "github.com/compozed/deployadactyl/structs"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // PusherCreator interface.

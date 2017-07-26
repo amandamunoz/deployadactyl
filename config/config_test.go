@@ -7,9 +7,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/compozed/deployadactyl/config"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
+	. "github.com/amandamunoz/deployadactyl/config"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
 )
 
 const (

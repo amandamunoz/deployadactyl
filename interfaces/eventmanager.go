@@ -1,6 +1,6 @@
 package interfaces
 
-import S "github.com/compozed/deployadactyl/structs"
+import S "github.com/amandamunoz/deployadactyl/structs"
 
 // EventManager interface.
 type EventManager interface {

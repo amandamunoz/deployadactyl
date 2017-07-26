@@ -1,13 +1,13 @@
 ![](https://raw.githubusercontent.com/compozed/images/master/deployadactyl_logo.png)
 
-[![Release](https://img.shields.io/github/release/compozed/deployadactyl.svg)](https://github.com/compozed/deployadactyl/releases/latest)
+[![Release](https://img.shields.io/github/release/compozed/deployadactyl.svg)](https://github.com/amandamunoz/deployadactyl/releases/latest)
 [![CircleCI](https://circleci.com/gh/compozed/deployadactyl.svg?style=svg&circle-token=0eab8bce42440217fb24ffd8ffdc2b44932125d5)](https://circleci.com/gh/compozed/deployadactyl)
-[![Go Report Card](https://goreportcard.com/badge/github.com/compozed/deployadactyl)](https://goreportcard.com/report/github.com/compozed/deployadactyl)
+[![Go Report Card](https://goreportcard.com/badge/github.com/amandamunoz/deployadactyl)](https://goreportcard.com/report/github.com/amandamunoz/deployadactyl)
 [![codecov](https://codecov.io/gh/compozed/deployadactyl/branch/master/graph/badge.svg?token=r9yd1cwtbH)](https://codecov.io/gh/compozed/deployadactyl)
 [![Stories in Ready](https://badge.waffle.io/compozed/deployadactyl.png?label=ready&title=Ready)](https://waffle.io/compozed/deployadactyl)
 [![Gitter](https://badges.gitter.im/compozed/deployadactyl.svg)](https://gitter.im/compozed/deployadactyl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://deployadactyl-invite.cfapps.io/badge.svg)](https://deployadactyl-invite.cfapps.io)
-[![GoDoc](https://godoc.org/github.com/compozed/deployadactyl?status.svg)](https://godoc.org/github.com/compozed/deployadactyl)
+[![GoDoc](https://godoc.org/github.com/amandamunoz/deployadactyl?status.svg)](https://godoc.org/github.com/amandamunoz/deployadactyl)
 
 Deployadactyl is a Go library for deploying applications to multiple [Cloud Foundry](https://www.cloudfoundry.org/) instances. Deployadactyl utilizes [blue green deployments](https://docs.pivotal.io/pivotalcf/devguide/deploy-apps/blue-green.html) and if it's unable to push an application it will rollback to the previous version. It also utilizes Go channels for concurrent deployments across the multiple Cloud Foundry instances.
 
@@ -75,7 +75,7 @@ The configuration file can be placed anywhere within the Deployadactyl directory
 |`name`|**Required**|`string`| Used in the deploy when the users are sending a request to Deployadactyl to specify which environment from the config they want to use.|
 |`foundations` |**Required**|`[]string`|A list of Cloud Foundry instance URLs.|
 |`domain`|*Optional*|`string`| Used to specify a load balanced URL that has previously been created on the Cloud Foundry instances.|
-|`authenticate` |*Optional*|`bool`| Used to specify if basic authentication is required for users. See the [authentication section](https://github.com/compozed/deployadactyl/wiki/Deployadactyl-API-v1.0.0#authentication) in the [API documentation](https://github.com/compozed/deployadactyl/wiki/Deployadactyl-API-Versions) for more details|
+|`authenticate` |*Optional*|`bool`| Used to specify if basic authentication is required for users. See the [authentication section](https://github.com/amandamunoz/deployadactyl/wiki/Deployadactyl-API-v1.0.0#authentication) in the [API documentation](https://github.com/amandamunoz/deployadactyl/wiki/Deployadactyl-API-Versions) for more details|
 |`skip_ssl` |*Optional*|`bool`| Used to skip SSL verification when Deployadactyl logs into Cloud Foundry.|
 |`instances` |*Optional*|`int`| Used to set the number of instances an application is deployed with. If the number of instances is specified in a Cloud Foundry manifest, that will be used instead. |
 
@@ -172,7 +172,7 @@ $ make push
 
 ### API
 
-A deployment by hitting the API using `curl` or other means. For more information on using the Deployadactyl API visit the [API documentation](https://github.com/compozed/deployadactyl/wiki/Deployadactyl-API-Versions) in the wiki.
+A deployment by hitting the API using `curl` or other means. For more information on using the Deployadactyl API visit the [API documentation](https://github.com/amandamunoz/deployadactyl/wiki/Deployadactyl-API-Versions) in the wiki.
 
 #### Example Curl
 

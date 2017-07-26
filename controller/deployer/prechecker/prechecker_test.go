@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/compozed/deployadactyl/config"
-	. "github.com/compozed/deployadactyl/controller/deployer/prechecker"
-	"github.com/compozed/deployadactyl/mocks"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	. "github.com/amandamunoz/deployadactyl/controller/deployer/prechecker"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	S "github.com/amandamunoz/deployadactyl/structs"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

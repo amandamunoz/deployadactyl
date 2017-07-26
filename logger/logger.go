@@ -4,7 +4,7 @@ package logger
 import (
 	"io"
 
-	I "github.com/compozed/deployadactyl/interfaces"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
 	"github.com/op/go-logging"
 )
 

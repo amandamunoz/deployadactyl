@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	C "github.com/compozed/deployadactyl/constants"
-	. "github.com/compozed/deployadactyl/eventmanager/handlers/healthchecker"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
-	S "github.com/compozed/deployadactyl/structs"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	. "github.com/amandamunoz/deployadactyl/eventmanager/handlers/healthchecker"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
+	S "github.com/amandamunoz/deployadactyl/structs"
 	logging "github.com/op/go-logging"
 
 	. "github.com/onsi/ginkgo"

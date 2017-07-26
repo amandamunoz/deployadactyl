@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	C "github.com/compozed/deployadactyl/constants"
-	. "github.com/compozed/deployadactyl/controller/deployer/bluegreen/pusher"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
-	S "github.com/compozed/deployadactyl/structs"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	. "github.com/amandamunoz/deployadactyl/controller/deployer/bluegreen/pusher"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
+	S "github.com/amandamunoz/deployadactyl/structs"
 	"github.com/op/go-logging"
 
 	. "github.com/onsi/ginkgo"

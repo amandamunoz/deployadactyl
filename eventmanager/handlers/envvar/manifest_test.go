@@ -5,9 +5,9 @@ import (
 	"github.com/op/go-logging"
 	"github.com/spf13/afero"
 
-	. "github.com/compozed/deployadactyl/eventmanager/handlers/envvar"
-	I "github.com/compozed/deployadactyl/interfaces"
-	"github.com/compozed/deployadactyl/logger"
+	. "github.com/amandamunoz/deployadactyl/eventmanager/handlers/envvar"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	"github.com/amandamunoz/deployadactyl/logger"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

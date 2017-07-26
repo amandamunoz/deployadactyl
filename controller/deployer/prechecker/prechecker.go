@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/compozed/deployadactyl/config"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // Prechecker has an eventmanager used to manage event if prechecks fail.

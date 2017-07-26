@@ -1,6 +1,6 @@
 package structs
 
-import "github.com/compozed/deployadactyl/config"
+import "github.com/amandamunoz/deployadactyl/config"
 
 // PrecheckerEventData has Environment variables and a description.
 type PrecheckerEventData struct {

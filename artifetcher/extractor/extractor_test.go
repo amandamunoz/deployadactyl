@@ -10,9 +10,9 @@ import (
 
 	"github.com/op/go-logging"
 
-	. "github.com/compozed/deployadactyl/artifetcher/extractor"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/randomizer"
+	. "github.com/amandamunoz/deployadactyl/artifetcher/extractor"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/randomizer"
 )
 
 const deployadactylManifest = `---

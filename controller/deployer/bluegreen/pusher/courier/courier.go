@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	I "github.com/compozed/deployadactyl/interfaces"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
 )
 
 // Courier has an Executor to execute Cloud Foundry commands.

@@ -1,6 +1,6 @@
 package mocks
 
-import "github.com/compozed/deployadactyl/config"
+import "github.com/amandamunoz/deployadactyl/config"
 
 // Prechecker handmade mock for tests.
 type Prechecker struct {

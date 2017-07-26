@@ -12,13 +12,13 @@ Ensure tests have been added for your changes. If you need help writing tests, s
 
 ## Requesting Features
 
-[Make an issue](https://github.com/compozed/deployadactyl/issues/new)
+[Make an issue](https://github.com/amandamunoz/deployadactyl/issues/new)
 
 ## Making changes
 
 Following these steps will help you get your pull request accepted:
 
-- [Fork Deployadactyl](https://github.com/compozed/deployadactyl/compare#fork-destination-box). Pull and checkout to the `develop` branch to ensure you have the latest commits
+- [Fork Deployadactyl](https://github.com/amandamunoz/deployadactyl/compare#fork-destination-box). Pull and checkout to the `develop` branch to ensure you have the latest commits
 
 - Create a topic branch where you want to base your work: `git checkout -b fix_some_issue`
 
@@ -28,7 +28,7 @@ Following these steps will help you get your pull request accepted:
 
 - Run **all** the tests to assure nothing else is broken: `ginkgo -r` or `go test ./...`
 
-- [Create a pull request](https://github.com/compozed/deployadactyl/compare) against the `develop` branch
+- [Create a pull request](https://github.com/amandamunoz/deployadactyl/compare) against the `develop` branch
 
 - Run `go fmt ./...`
 

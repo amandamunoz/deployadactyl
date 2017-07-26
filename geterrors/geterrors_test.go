@@ -1,8 +1,8 @@
 package geterrors_test
 
 import (
-	. "github.com/compozed/deployadactyl/geterrors"
-	"github.com/compozed/deployadactyl/randomizer"
+	. "github.com/amandamunoz/deployadactyl/geterrors"
+	"github.com/amandamunoz/deployadactyl/randomizer"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

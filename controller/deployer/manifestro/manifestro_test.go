@@ -1,7 +1,7 @@
 package manifestro_test
 
 import (
-	. "github.com/compozed/deployadactyl/controller/deployer/manifestro"
+	. "github.com/amandamunoz/deployadactyl/controller/deployer/manifestro"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

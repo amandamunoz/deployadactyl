@@ -3,13 +3,13 @@ package bluegreen_test
 import (
 	"errors"
 
-	"github.com/compozed/deployadactyl/config"
-	. "github.com/compozed/deployadactyl/controller/deployer/bluegreen"
-	I "github.com/compozed/deployadactyl/interfaces"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	. "github.com/amandamunoz/deployadactyl/controller/deployer/bluegreen"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
+	S "github.com/amandamunoz/deployadactyl/structs"
 	"github.com/op/go-logging"
 
 	. "github.com/onsi/ginkgo"

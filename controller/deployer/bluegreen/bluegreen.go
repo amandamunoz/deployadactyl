@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/compozed/deployadactyl/config"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // BlueGreen has a PusherCreator to creater pushers for blue green deployments.

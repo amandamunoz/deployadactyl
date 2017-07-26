@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	C "github.com/compozed/deployadactyl/constants"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // HealthChecker will check an endpoint for a http.StatusOK

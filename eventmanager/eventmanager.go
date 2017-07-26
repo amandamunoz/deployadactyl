@@ -2,8 +2,8 @@
 package eventmanager
 
 import (
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 // EventManager has handlers for each registered event type.

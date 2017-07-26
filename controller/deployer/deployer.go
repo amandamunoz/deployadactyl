@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/compozed/deployadactyl/config"
-	C "github.com/compozed/deployadactyl/constants"
-	"github.com/compozed/deployadactyl/controller/deployer/manifestro"
-	"github.com/compozed/deployadactyl/geterrors"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	"github.com/amandamunoz/deployadactyl/controller/deployer/manifestro"
+	"github.com/amandamunoz/deployadactyl/geterrors"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 	"github.com/spf13/afero"
 )
 

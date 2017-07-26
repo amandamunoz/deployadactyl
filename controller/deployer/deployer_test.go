@@ -14,14 +14,14 @@ import (
 	"github.com/op/go-logging"
 	"github.com/spf13/afero"
 
-	"github.com/compozed/deployadactyl/config"
-	C "github.com/compozed/deployadactyl/constants"
-	. "github.com/compozed/deployadactyl/controller/deployer"
-	"github.com/compozed/deployadactyl/interfaces"
-	"github.com/compozed/deployadactyl/logger"
-	"github.com/compozed/deployadactyl/mocks"
-	"github.com/compozed/deployadactyl/randomizer"
-	S "github.com/compozed/deployadactyl/structs"
+	"github.com/amandamunoz/deployadactyl/config"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	. "github.com/amandamunoz/deployadactyl/controller/deployer"
+	"github.com/amandamunoz/deployadactyl/interfaces"
+	"github.com/amandamunoz/deployadactyl/logger"
+	"github.com/amandamunoz/deployadactyl/mocks"
+	"github.com/amandamunoz/deployadactyl/randomizer"
+	S "github.com/amandamunoz/deployadactyl/structs"
 )
 
 const (

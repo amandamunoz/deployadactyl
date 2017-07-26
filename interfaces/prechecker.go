@@ -1,6 +1,6 @@
 package interfaces
 
-import "github.com/compozed/deployadactyl/config"
+import "github.com/amandamunoz/deployadactyl/config"
 
 // Prechecker interface.
 type Prechecker interface {

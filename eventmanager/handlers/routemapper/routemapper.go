@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/cloudfoundry-incubator/candiedyaml"
-	I "github.com/compozed/deployadactyl/interfaces"
-	S "github.com/compozed/deployadactyl/structs"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
+	S "github.com/amandamunoz/deployadactyl/structs"
 	"github.com/spf13/afero"
 )
 

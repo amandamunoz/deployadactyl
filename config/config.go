@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/cloudfoundry-incubator/candiedyaml"
-	"github.com/compozed/deployadactyl/geterrors"
+	"github.com/amandamunoz/deployadactyl/geterrors"
 )
 
 const defaultConfigPath = "./config.yml"

@@ -1,6 +1,6 @@
 package mocks
 
-import S "github.com/compozed/deployadactyl/structs"
+import S "github.com/amandamunoz/deployadactyl/structs"
 
 // Handler handmade mock for tests.
 type Handler struct {

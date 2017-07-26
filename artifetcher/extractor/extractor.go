@@ -8,7 +8,7 @@ import (
 	"os"
 	"path"
 
-	I "github.com/compozed/deployadactyl/interfaces"
+	I "github.com/amandamunoz/deployadactyl/interfaces"
 	"github.com/spf13/afero"
 )
 

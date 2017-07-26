@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"os"
 
-	C "github.com/compozed/deployadactyl/constants"
-	"github.com/compozed/deployadactyl/creator"
-	"github.com/compozed/deployadactyl/eventmanager/handlers/envvar"
-	"github.com/compozed/deployadactyl/eventmanager/handlers/healthchecker"
-	"github.com/compozed/deployadactyl/eventmanager/handlers/routemapper"
-	"github.com/compozed/deployadactyl/logger"
+	C "github.com/amandamunoz/deployadactyl/constants"
+	"github.com/amandamunoz/deployadactyl/creator"
+	"github.com/amandamunoz/deployadactyl/eventmanager/handlers/envvar"
+	"github.com/amandamunoz/deployadactyl/eventmanager/handlers/healthchecker"
+	"github.com/amandamunoz/deployadactyl/eventmanager/handlers/routemapper"
+	"github.com/amandamunoz/deployadactyl/logger"
 	"github.com/op/go-logging"
 )
 
